@@ -13,7 +13,7 @@ jobs:
       - name: install dependencies
         run: npm install
       - name: build project
-        run: npm build
+        run: npm run build
       - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
